@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title> student regstration form </title>
+	<style>
+		body {
+  background-image: url('IMG-20190319-WA0122.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+	h1{
+ font-family: Sans-serif; 
+ font-size: 34px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: blue;
+ text-align: center; 
+ text-decoration: underline
+}
+table{
+ font-family: normal; 
+ color: ; 
+ font-size: 26px; 
+ font-style: normal;
+ font-weight: normal;
+ 
+ border-collapse: collapse; 
+ border: 2px solid #000000;
+ border-style: line;
+ opacity: 2.5;
+  
+}
+table.inner{                                                                            
+ border: 1px
+}
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 1px 12px;
+ margin: 5px 0;
+
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h1>registration form</h1>
+<table align="center" cellpadding="10">
+	<tr>
+		<td>First Name :</td>
+       <td><input type="text" id="name" name="name" placeholder="enter your first name"></td>
+	</tr>
+	<tr>
+		<td>Last Name :</td>
+       <td><input type="text" id="name" name="name" placeholder="enter your last name"></td>
+	</tr>
+	<tr><td>DOB :</td>
+		<td>
+			<input type="date" id="birthday" name="birthday">
+ 
+		</td>>
+			
+		
+	</tr>
+	<tr>
+		<td>email :</td>
+       <td><input type="email" id="email" name="name" placeholder="xyz@gmail.com"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+       <td><input type="password" id="psd" name="name" placeholder="type ur Password"></td>
+	</tr>
+	<tr>
+		<td>Re-Enter password:</td>
+       <td><input type="password" id="psd" name="name" placeholder=" Re-type ur Password"></td>
+	</tr>
+		<tr>
+		<td>Mobile no:</td>
+       <td><input type="number" id="num" name="name" placeholder="enter ur no"></td>
+	</tr>
+	<tr>
+		<td>Gender :</td>
+		<td><input type="radio" name="Male"> Male<input type="radio" name="male">Female<input type="radio" name="male">Others</td>
+	</tr>
+	<tr>
+	<td>Address :</td>
+	<td><textarea rows="5" cols="24" placeholder="enter your addres"></textarea></td>
+</tr>
+<tr>
+	<td>Area of intrest:</td>
+	<td><textarea rows="5" cols="24" placeholder="Eg- dancng ,playing,singing,coding ,"></textarea></td>
+</tr>
+<tr>
+<td>graduation CGPA</td>
+	<td><input type="number" id="num" name="name"></td>
+<br/>
+<tr>
+<td>Entermediate CGPA</td>
+	<td><input type="number" id="num" name="name"></td>
+
+</td>
+</tr>
+<tr> <td><form action="/action_page.php" method="get" id="form1">
+
+</form>
+
+<button type="submit" form="form1" value="Submit">Submit</button>
+</table>
+</body>
+</html>
